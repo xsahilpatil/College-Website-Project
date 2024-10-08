@@ -1,0 +1,121 @@
+		.welcome-section {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+        .welcome-text {
+            flex: 1;
+            margin-right: 20px;
+        }
+        .welcome-image {
+            flex: 1;
+            max-width: 100%;
+            height: auto;
+        }
+        .welcome-heading {
+            font-size: 36px;
+            font-weight: bold;
+            color: #C00000;
+            margin-bottom: 10px;
+        }
+        .welcome-subtext {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+        .know-more-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #e74c3c;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+		ul {
+			display:flex;
+			justify-content:space-around;
+		}
+		.content {
+		background-color:#A20314;
+		height:50px;
+		width:100%;
+		}
+		a {
+		text-decoration:none;
+		color:white;
+		font-weight:bold;
+		padding-top:15px;
+		}
+		footer {
+		background-color:#A20314;
+		height:50px;
+		width:100%;
+		text-align:center;
+		color:white;
+		padding-top:16px;
+		}
+		.college-name {
+		display:flex;
+		justify-content:center;
+		}
+		#content-frame {
+		margin:20px;
+		}
+		.course {
+		font-weight:bold;
+		background-color:A20314;
+		display:inline-block;
+		border:1px;
+		border-radius:25px;
+		height:75px;
+		text-align:center;
+		margin-top:10px;
+		margin-bottom:10px;
+		width:500px;
+		color:white;
+		}
+		#image {
+		display:block;
+		vertical-align:bottom;
+		}
+		.contactus {
+		font-weight:bold;
+		background-color:A20314;
+		display:inline-block;
+		border:1px;
+		border-radius:25px;
+		height:75px;
+		text-align:center;
+		margin-top:10px;
+		margin-bottom:10px;
+		width:500px;
+		color:white;
+		align-items:center;
+		}
+		#contact-page {
+		margin:20px;
+		}
+		.social {
+		display: flex;
+		justify-content: flex-end; /* Corrected to 'flex-end' for right alignment */
+		height: auto; /* Allow height to adjust based on content */
+		padding: 10px; /* Optional: Add some padding for better spacing */
+}
+
+		.social img {
+		width: 50px; /* Set a size for your icons */
+		height: 50px; /* Maintain aspect ratio */
+		margin-left: 10px; /* Optional: Add space between icons */
+		}
+		table,tr,td {
+        border: 5px solid black;
+		margin-bottom:30px;
+		text-align:center;
+        }
+		form {
+		margin-bottom:300px;
+		margin-top:75px;
+		font-size:25px;
+		}
